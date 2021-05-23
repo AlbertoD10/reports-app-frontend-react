@@ -258,7 +258,9 @@ function List(props) {
           })}
         </tbody>
       </Table>
-      <p className="text-right">Monto a cancelar al empleado: B/. {total}</p>
+      <p className="text-right">
+        Monto a cancelar al empleado: B/. {parseFloat(total).toFixed(2)}
+      </p>
     </>
   );
 }

@@ -1,0 +1,21 @@
+.list-employees {
+  h4 {
+    color: #333333;
+    font-weight: 300;
+  }
+  label {
+    color: #333333;
+    font-weight: 300;
+  }
+  margin: 20px 20px;
+  padding: 20px 20px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+
+  td {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+  }
+}

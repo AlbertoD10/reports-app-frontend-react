@@ -1,0 +1,12 @@
+a {
+  color: white;
+  &:hover {
+    color: grey;
+  }
+}
+
+.nav {
+  a {
+    margin: 15px;
+  }
+}

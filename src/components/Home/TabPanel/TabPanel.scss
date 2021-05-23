@@ -1,0 +1,20 @@
+.tab-panel {
+  background-color: white;
+  margin-top: 50px;
+  padding: 30px;
+  box-shadow: 0 0.4px 1.2px rgba(197, 192, 192, 0.015),
+    0 0.9px 2.7px rgba(0, 0, 0, 0.022), 0 1.6px 4.6px rgba(0, 0, 0, 0.027),
+    0 2.3px 6.9px rgba(0, 0, 0, 0.031), 0 3.4px 10px rgba(0, 0, 0, 0.035),
+    0 4.8px 14.2px rgba(0, 0, 0, 0.039), 0 6.8px 20.1px rgba(0, 0, 0, 0.043),
+    0 9.9px 29.2px rgba(0, 0, 0, 0.048), 0 15.2px 45px rgba(0, 0, 0, 0.055),
+    0 27px 80px #00000012;
+
+  .nav {
+    a {
+      color: grey;
+    }
+    &-tabs {
+      margin-bottom: 20px;
+    }
+  }
+}
